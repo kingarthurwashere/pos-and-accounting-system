@@ -1,6 +1,5 @@
-<p align="center"><a href="https://www.dxbrunners.com" target="_blank"><img src="https://www.dxbrunners.com/wp-content/uploads/2022/01/IMG-20220119-WA0057.jpg" width="400" alt="MikhmanPOS Logo"></a></p>
 
-# MikhmanPOS Setup
+# POS Setup
 
 This guide will walk you through the setup process to get the application running smoothly on your local development machine.
 
@@ -21,7 +20,7 @@ Follow these steps to install the application:
 Start by cloning the source repository from GitHub (or other version control systems) to your local machine.
 
 ```bash
-git clone https://github.com/Maunga/mikhman_pos
+git clone https://github.com/kingarthurwashere/pos-and-accounting-system
 ```
 
 ### 2. Install Dependencies
@@ -56,10 +55,6 @@ Populate the database with initial data using the database seeder:
 ```bash
 php artisan db:seed
 ```
-
-## Important Notice
-
-Do Not Run Jobs: Please do not execute any queued jobs as they are configured to synchronize with AgentX. Running these jobs without proper configuration or during initial setup might cause conflicts or unwanted syncs with AgentX.
 
 ## Running the Application
 
